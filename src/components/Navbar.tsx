@@ -2,7 +2,6 @@ import { Badge, Search } from "lucide-react";
 import { RiShoppingBag4Line } from "react-icons/ri";
 import { RxAvatar } from "react-icons/rx";
 import MobileMenu from "./MobileMenu";
-import { Button } from "./ui/button";
 const Navbar = () => {
   const menuItems = [
     { label: "Home", href: "/" },
