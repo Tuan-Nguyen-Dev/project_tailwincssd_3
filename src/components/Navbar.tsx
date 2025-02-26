@@ -2,6 +2,7 @@ import { Badge, Search } from "lucide-react";
 import { RiShoppingBag4Line } from "react-icons/ri";
 import { RxAvatar } from "react-icons/rx";
 import MobileMenu from "./MobileMenu";
+import { Button } from "./ui/button";
 const Navbar = () => {
   const menuItems = [
     { label: "Home", href: "/" },
@@ -32,8 +33,12 @@ const Navbar = () => {
           {/* Avatar + Chế độ tối */}
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
-              <Search />
-              <RxAvatar size={24} />
+              <a href="/login">
+                <Search />
+              </a>
+              <a href="">
+                <RxAvatar size={24} />
+              </a>
             </div>
 
             <div className="flex items-center gap-2">
