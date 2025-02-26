@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 const NewLetterFooter = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 container mx-auto">
       <div className="flex flex-col items-center justify-center py-10 md:py-20">
         <h3 className="text-[#141718] font-display font-medium p-3 text-3xl md:text-5xl">
           Join Our Newsletter
