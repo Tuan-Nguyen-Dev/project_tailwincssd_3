@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import React from "react";
 interface BlogCardProps {
   image: string;
   title: string;

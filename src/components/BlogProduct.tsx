@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import React from "react";
 import BlogCard from "./BlogCard";
 const blogPosts = [
   {
